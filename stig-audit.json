@@ -1,0 +1,26 @@
+{
+	"audit":{
+		"audit-enabled":"true",
+		"keep-audit-files":"3",
+		"audit-event":[
+			{"audit-event-name":"audit-startup","audit-event-enabled":"true"},
+			{"audit-event-name":"audit-shutdown", "audit-event-enabled":"true"},
+			{"audit-event-name":"security-access","audit-event-enabled":"true"},
+			{"audit-event-name":"configuration-change", "audit-event-enabled":"true"},
+			{"audit-event-name":"audit-configuration-change", "audit-event-enabled":"true"},
+			{"audit-event-name":"user-configuration-change", "audit-event-enabled":"true"},
+			{"audit-event-name":"user-role-removal", "audit-event-enabled":"true"},
+			{"audit-event-name":"user-role-addition", "audit-event-enabled":"true"},
+			{"audit-event-name":"permission-change", "audit-event-enabled":"true"},
+			{"audit-event-name":"authentication-failure", "audit-event-enabled":"true"},
+			{"audit-event-name":"concurrent-request-denial", "audit-event-enabled":"true"}
+
+	],
+	"audit-restriction":[
+		{"audit-restriction-name":"role","audit-restriction-type":"inclusion","audit-restriction-items":""}, 
+		{"audit-restriction-name":"outcome","audit-restriction-type":"exclusion","audit-restriction-items":"both"}, 
+		{"audit-restriction-name":"uri","audit-restriction-type":"inclusion","audit-restriction-items":""}, 
+		{"audit-restriction-name":"user","audit-restriction-type":"inclusion","audit-restriction-items":""}
+		]
+	}
+}
