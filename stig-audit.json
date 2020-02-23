@@ -1,7 +1,7 @@
 {
 	"audit":{
 		"audit-enabled":"true",
-		"keep-audit-files":"3",
+		"keep-audit-files":"7",
 		"audit-event":[
 			{"audit-event-name":"audit-startup","audit-event-enabled":"true"},
 			{"audit-event-name":"audit-shutdown", "audit-event-enabled":"true"},
