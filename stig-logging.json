@@ -1,0 +1,7 @@
+{	
+	"system-log-level":"notice", 
+	"file-log-level":"info", 
+	"rotate-log-files":"daily",
+	"keep-log-files":7,
+	"xdqp-ssl-enabled":true
+}

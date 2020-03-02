@@ -1,0 +1,7 @@
+{"keystore":
+	{"data-encryption":"force", 
+	"config-encryption":"on", 
+	"logs-encryption":"on", 
+	"kms-type":"internal"
+	}
+}
